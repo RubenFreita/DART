@@ -7,7 +7,7 @@ main() {
     {"nome": "Ana", "nota": 7.6},
     {"nome": "Ricardo", "nota": 6.8},
   ];
-  //MAP
+  //MAP E REDUCE
   String Function(Map) pegarApenasNome = (aluno) => aluno['nome'];
   int Function(String) qtdLetras = (nome) => nome.length;
   int Function(int) dobro = (qtd) => qtd * 2;
@@ -20,7 +20,4 @@ main() {
 
   print(resultado);
   //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
-  //REDUCE
-  var notas = [7.3, 5.4, 7.7, 8.1, 5.5, 4.9, 9.1, 10.0];
 }
